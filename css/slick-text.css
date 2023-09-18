@@ -1,0 +1,52 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* 밖-영화 포스터
+.slider-for {
+  position: relative;
+} */
+
+/* .slider {
+    width: 100%;
+    margin: 100px auto;
+} */
+
+/* 안-영화 포스터
+.slider-nav {
+  position: absolute;
+  top: 37%;
+  left: 24%;
+} */
+
+.slick-slide {
+  /* margin: 0px 20px; */
+}
+
+.slick-slide img {
+  /* width: 100%; */
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: .5;
+}
+
+.slick-current {
+  opacity: 1;
+}

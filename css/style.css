@@ -29,7 +29,7 @@ button {
   color: #ffffff;
   outline: none;
   background-color: transparent;
-
+  cursor: pointer;
 }
 
 /* header */
@@ -132,6 +132,69 @@ header {
 }
 
 /* main */
+.slider-wrap {
+
+}
+
+/* 밖-영화 포스터 */
+.slider-for {
+  position: relative;
+}
+
+.slider {
+  width: 100%;
+}
+
+
+/* 안-영화 포스터 */
+/* 영화 포스터-중앙 가운데 정렬 */
+.slider-nav-wrap {
+  position: absolute;
+  bottom: -350px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.slider-nav-inner {
+  width: 1200px;
+}
+
+.slider-nav {
+  /* position: absolute;
+  /* max-width: 1200px; */
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .top-section {
   background-image: url('../image/main-banner-img.jpg');
   background-repeat: no-repeat;
@@ -205,6 +268,8 @@ header {
 }
 
 .movie-poster img {
+  width: 216px;
+  height: 299px;
   border-radius: 8px;
 }
 
@@ -575,3 +640,22 @@ header {
   font-size: 12px;
   font-weight: 400;
 }
+
+
+/* 반응형 */
+@media screen and (max-width:991px) {
+    /* 타블렛 */
+    font-size: 15px;
+  }
+
+@media screen and (max-width:767px) {
+    /* 스마트폰 가로 */
+  }
+  
+
+@media screen and (max-width:575px) {
+  /* 스마트폰 세로 */
+  }
+  
+  
+  
